@@ -1,0 +1,34 @@
+/* тут просто записуємо стилі */
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  /* margin-bottom: var(--ifm-leading); */
+  max-width: 480px;
+}
+.avatar {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  border: 5px solid rgba(0, 3, 95, 0.412);
+}
+.stats {
+  display: flex;
+  /* justify-content: center; */
+}
+/* .description {
+}
+.name {
+}
+.tag {
+}
+.location {
+}
+.label {
+}
+.quantity {
+} */
