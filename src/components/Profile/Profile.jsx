@@ -24,7 +24,7 @@ export const Profile = ({
           }}
         />
         <p className={css.name}>{username}</p>
-        <p className={css.tag}>@{tag}a</p>
+        <p className={css.tag}>@{tag}</p>
         <p className={css.location}>{location}</p>
       </div>
 

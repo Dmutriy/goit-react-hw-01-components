@@ -1,0 +1,21 @@
+.transaction_history {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgb(103 103 102 / 89%) 0px 5px 25px 5px;
+}
+.thead {
+  height: 35px;
+  background-color: rgb(0 188 213);
+
+  font-size: 14px;
+  color: rgb(219, 219, 219);
+}
+.title {
+  font-weight: 700;
+}
