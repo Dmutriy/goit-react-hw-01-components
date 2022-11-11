@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
-import css from './ElemkentTableStatistics.module.css';
+import css from './ElementTableStatistics.module.css';
 import { getRandomHexColor } from 'utils';
 
-export const ElemkentTableStatistics = ({ id, label, percentage }) => {
+export const ElementTableStatistics = ({ id, label, percentage }) => {
   return (
     <>
       <li
@@ -19,7 +19,7 @@ export const ElemkentTableStatistics = ({ id, label, percentage }) => {
   );
 };
 
-ElemkentTableStatistics.propTypes = {
+ElementTableStatistics.propTypes = {
   id: PropTypes.string,
   label: PropTypes.string.isRequired,
   percentage: PropTypes.number.isRequired,

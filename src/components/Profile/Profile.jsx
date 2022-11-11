@@ -1,6 +1,8 @@
 import css from './Profile.module.css';
 import PropTypes from 'prop-types';
 
+import { getRandomHexColor } from 'utils';
+
 export const Profile = ({
   username,
   tag,
@@ -13,7 +15,14 @@ export const Profile = ({
   return (
     <div className={css.profile}>
       <div className={css.description}>
-        <img src={avatar} alt="User avatar" className={css.avatar} />
+        <img
+          src={avatar}
+          alt="User avatar"
+          className={css.avatar}
+          style={{
+            backgroundColor: getRandomHexColor(),
+          }}
+        />
         <p className={css.name}>{username}</p>
         <p className={css.tag}>@{tag}a</p>
         <p className={css.location}>{location}</p>
