@@ -1,34 +1,73 @@
-/* тут просто записуємо стилі */
 .profile {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px;
-  /* margin-bottom: var(--ifm-leading); */
-  max-width: 480px;
+  width: 220px;
+  margin: 15px auto;
+  border-radius: 7px;
+  background-color: whitesmoke;
+  overflow: hidden;
+  box-shadow: rgba(103, 103, 102, 0.893) 0px 5px 25px 5px;
+}
+
+.description {
+  text-align: center;
+  width: 220px;
 }
 .avatar {
-  width: 25rem;
-  height: 25rem;
+  background: #14a800;
+  width: 100px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 50%;
-  border: 5px solid rgba(0, 3, 95, 0.412);
 }
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.tag {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 15px;
+  color: rgb(110, 110, 110);
+}
+
+.location {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 15px;
+  color: rgb(110, 110, 110);
+}
+
 .stats {
   display: flex;
-  /* justify-content: center; */
+  justify-content: space-around;
+  text-align: center;
+
+  margin-top: 15px;
+  background-color: rgb(220 227 236 / 35%);
+  border-top: 1px solid #cfc2c2;
 }
-/* .description {
+
+.stats__item {
+  width: 33.3%;
+  padding: 10px;
+  border-right: 1px solid #cfc2c2;
 }
-.name {
+.stats__item:last-child {
+  border-right: 0;
 }
-.tag {
-}
-.location {
-}
+
 .label {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(110, 110, 110);
 }
+
 .quantity {
-} */
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
