@@ -20,11 +20,12 @@
   background-color: green;
 }
 .offline {
-  content: '';
+  /* content: '';
   width: 10px;
   height: 10px;
 
-  border-radius: 50%;
+  border-radius: 50%; */
+  composes: online;
   background-color: red;
 }
 .avatar {

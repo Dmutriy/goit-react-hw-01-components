@@ -6,7 +6,6 @@ export const ElementTableStatistics = ({ id, label, percentage }) => {
   return (
     <>
       <li
-        key={id}
         className={css.item}
         style={{
           backgroundColor: getRandomHexColor(),

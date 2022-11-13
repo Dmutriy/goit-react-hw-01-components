@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
 import css from './FrendCard.module.css';
 
-export const FrendCard = ({ avatar, name, isOnline, id }) => {
+export const FrendCard = ({ avatar, name, isOnline }) => {
   return (
     <>
-      <li className={css.item} key={id}>
+      <li className={css.item}>
         <span className={isOnline ? css.online : css.offline}></span>
         <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
         <p className={css.name}>{name}</p>
