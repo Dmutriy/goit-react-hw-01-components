@@ -1,19 +1,19 @@
 import PropTypes from 'prop-types';
-import css from './ElementTableStatistics.module.css';
+// import css from './ElementTableStatistics.module.css';
 import { getRandomHexColor } from 'utils';
+import { Item, Label, Percentage } from './ElementTableStatistics.styled';
 
 export const ElementTableStatistics = ({ id, label, percentage }) => {
   return (
     <>
-      <li
-        className={css.item}
+      <Item
         style={{
           backgroundColor: getRandomHexColor(),
         }}
       >
-        <span className={css.label}>{label}</span>
-        <span className={css.percentage}>{percentage}%</span>
-      </li>
+        <Label>{label}</Label>
+        <Percentage>{percentage}%</Percentage>
+      </Item>
     </>
   );
 };
