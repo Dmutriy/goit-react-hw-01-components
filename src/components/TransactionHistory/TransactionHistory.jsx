@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './TransactionHistory.module.css';
-import { TransactionString } from 'components/TransactionString/TransactionString';
+import { TransactionString } from 'components/TransactionHistory/TransactionString/TransactionString';
 
 export const TransactionHistory = ({ items }) => {
   return (
