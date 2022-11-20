@@ -20,7 +20,7 @@ export const Avatar = styled.img`
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-  background-color: ${getRandomHexColor()};
+  background-color: ${getRandomHexColor};
 `;
 export const Name = styled.p`
   font-weight: 700;
