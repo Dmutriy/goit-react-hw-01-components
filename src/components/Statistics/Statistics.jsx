@@ -1,7 +1,7 @@
 import css from './Statistics.module.css';
 import PropTypes from 'prop-types';
 
-import { ElementTableStatistics } from 'components/ElementTableStatistics/ElementTableStatistics';
+import { ElementTableStatistics } from 'components/Statistics/ElementTableStatistics/ElementTableStatistics';
 
 export const Statistics = ({ title, stats }) => {
   return (
